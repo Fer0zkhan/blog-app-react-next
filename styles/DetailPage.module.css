@@ -1,0 +1,116 @@
+.articleContainer {
+  padding: 1rem;
+  margin: auto;
+  /* background: #fff */
+}
+
+.articleBack {
+  width: 80%;
+  margin: auto;
+  padding: 1rem;
+}
+
+.articleBack span {
+  cursor: pointer;
+  color: #f6c90e;
+  margin: 10px;
+}
+
+.articleBack span:hover {
+  border-bottom: 2px solid #f6c90e;
+}
+
+.articleCoverImage {
+  width: 80%;
+  margin: auto;
+  height: 40vh;
+  border: 4px solid #f6c90e;
+  border-radius: 10px;
+}
+
+.articleCoverImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.articleHeader {
+  width: 80%;
+  margin: auto;
+}
+
+.articleHeaderUpper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.articleHeaderUpper h1 {
+  color: #f6c90e;
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+.articleHeaderLower {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.authorSection {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.authorSection img {
+  width: 60px;
+  height: 60px;
+  border: 4px solid lightgray;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.authorSection h1 {
+  color: lightgray;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.articleHeaderLower span {
+  color: lightgray;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.content {
+  width: 80%;
+  margin: auto;
+}
+
+.content > * {
+  color: #fff;
+}
+
+.content > h1,
+.content > h2,
+.content > h3,
+.content > h4,
+.content > h5,
+.content > h6 {
+  font-weight: 300;
+  font-size: 1.5rem;
+  color: #f6c90e;
+}
+
+.content p {
+  line-height: 1.5;
+}
+
+.content img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
