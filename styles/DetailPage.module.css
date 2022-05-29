@@ -26,6 +26,15 @@
   height: 40vh;
   border: 4px solid #f6c90e;
   border-radius: 10px;
+  transition: all 0.2s ease;
+}
+
+.articleCoverImage:hover {
+  transform: scale(1.03)
+}
+
+.articleCoverImage:active {
+  transform: scale(.9)
 }
 
 .articleCoverImage img {
@@ -50,6 +59,11 @@
   color: #f6c90e;
   font-size: 3rem;
   font-weight: 300;
+  transition: all 0.2s ease;
+}
+
+.articleHeaderUpper h1:hover {
+  transform: scale(1.03)
 }
 
 .articleHeaderLower {
